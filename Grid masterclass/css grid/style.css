@@ -1,0 +1,270 @@
+ .heading {
+    text-decoration: underline;
+    color: blueviolet;
+
+ }
+
+ .gridcontainer-pixel{
+    background-color: blanchedalmond;
+    margin: 70px 0 0 20px;
+    color: antiquewhite;
+
+    display: grid;
+    grid-template-columns: 450px 300px ;
+    grid-template-rows: 150px 150px 100px;
+ }
+
+ .box1{
+    background: #000;
+ }
+ .box2{
+    background: #551414;
+ }
+ .box3{
+    background: #25bb07;
+ }
+ .box4{
+    background: #971717;
+ }
+ .box5{
+    background: #db09a7;
+ }
+ .box6{
+    background: #ade907;
+ }
+
+ .gridcontainer-percent{
+   height: 500px;
+   background-color: rgb(110, 92, 63);
+   margin: 70px 0 0 20px;
+   color: antiquewhite;
+   display: grid;
+   grid-template-columns: 50% 30%;
+   grid-template-rows: 50% 30% 20% ;
+
+}
+
+.box1-pt{
+   background: #754a4a;
+}
+.box2-pt{
+   background: #e61f1f;
+}
+.box3-pt{
+   background: #0a2504;
+}
+.box4-pt{
+   background: #971717;
+}
+.box5-pt{
+   background: #5e0146;
+}
+.box6-pt{
+   background: #577502;
+}
+
+.gridcontainer-colgap{
+   background-color: rgb(156, 99, 8);
+   margin: 70px 0 0 20px;
+   color: antiquewhite;
+   display: grid;
+   grid-template-columns: 500px 400px 300px;
+   grid-template-rows: 200px 150px;
+   grid-column-gap: 20px ;
+}
+
+.box1-colgap{
+   background: #754a4a;
+}
+.box2-colgap{
+   background: #e61f1f;
+}
+.box3-colgap{
+   background: #0a2504;
+}
+.box4-colgap{
+   background: #971717;
+}
+.box5-colgap{
+   background: #5e0146;
+}
+.box6-colgap{
+   background: #577502;
+}
+
+.gridcontainer-rowgap{
+   background-color: rgb(65, 43, 8);
+   margin: 70px 0 0 20px;
+   color: antiquewhite;
+   display: grid;
+   grid-template-columns: 500px 400px 300px;
+   grid-template-rows: 200px 150px;
+   grid-row-gap: 20px ;
+}
+
+.box1-rowgap{
+   background: #3b0404;
+}
+.box2-rowgap{
+   background: #500a0a;
+}
+.box3-rowgap{
+   background: #5a944d;
+}
+.box4-rowgap{
+   background: #c29d9d;
+}
+.box5-rowgap{
+   background: #ec43c2;
+}
+.box6-rowgap{
+   background: #222e01;
+}
+
+.gridcontainer-fr{
+   height: 500px;
+ background-color: #25bb07;
+ margin: 70px 0 0 20px;
+ color:white;
+ display: grid;
+ grid-template-columns: 2fr 1fr 1fr;
+ grid-template-rows: 1fr 1fr 1fr;
+
+}
+
+.gridcontainer-repeat{
+   height: 400px;
+   background-color: #25bb07;
+   margin: 70px 0 0 20px;
+   color:white;
+   display: grid;
+   grid-template-columns: repeat(3,3fr);
+   grid-template-rows: repeat(3,2fr);
+
+}
+
+.box1-rpt{
+   background: #c5aaaa;
+}
+.box2-rpt{
+   background: #1210a1;
+}
+.box3-rpt{
+   background: #647261;
+}
+.box4-rpt{
+   background: #5c1818;
+}
+.box5-rpt{
+   background: #070105;
+}
+.box6-rpt{
+   background: #1b200b;
+}
+
+.gridcontainer-positioning{
+   height: 300px;
+   width: 50%;
+   color: white;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: 50px 50px;
+   gap: 10px;
+}
+
+.box1-ptn{
+   background: #c5aaaa;
+   grid-row-start: 1;
+   grid-row-end: 2;
+   grid-column-start: 3;
+   grid-column-end: -1;
+
+}
+.box2-ptn{
+   background: #1210a1;
+
+   grid-row-start: 2;
+   grid-row-end: 3;
+   grid-column-start: 2;
+
+}
+.box3-ptn{
+   background: #647261;
+}
+.box4-ptn{
+   background: #5c1818;
+   grid-row-start: 1;
+   grid-row-end:2;
+   grid-column-start: 2;
+   grid-column-end:3;
+
+}
+.box5-ptn{
+   background: #070105;
+}
+.box6-ptn{
+   background: #1b200b;
+}
+
+.gridcontainer-spaning{
+   height: 1100px;
+   color: white;
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.box1-span{
+   background: #352d2d;
+   grid-row: 1/2;
+   grid-column:1/3;
+}
+.box2-span{
+   background: #1210a1;
+   grid-row: 1/2;
+   grid-column:3/5;
+}
+.box3-span{
+   background: #647261;
+   grid-row: 2/3;
+   grid-column:1/2;
+}
+.box4-span{
+   background: #5c1818;
+   grid-row: 2/3;
+   grid-column:2/4;
+}
+.box5-span{
+   background: #070105;
+   grid-row: 2/4;
+   grid-column:4/5;
+
+}
+.box6-span{
+   background: #788d34;
+   grid-row: 3/4;
+   grid-column: 1/2;
+}
+
+.box7-span{
+   background: #ff27b7;
+   grid-row: 3/4;
+   grid-column: 2/4;
+}
+.box8-span{
+   background: #abdd08;
+   grid-row: 4/5;
+   grid-column: 1/2;
+}
+.box9-span{
+   background: #27dfff;
+   grid-row: 4/5;
+   grid-column: 2/3;
+
+}
+.box10-span{
+   background: #08dd68;
+   grid-row: 4/5;
+   grid-column: 3/5;
+
+}

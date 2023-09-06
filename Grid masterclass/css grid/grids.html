@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1 class="heading">About Css grid</h1>
+    <p> Two dimensional grid system matlab de hum pake row we ao hum column  </p>
+    <p> css grid layouts  replace float property mean che kala grid layout rage ws sok float property na use kai   </p>
+    <p> fast and cleancode </p>
+    <p> no need of css framework che kala darta da izda sho its mean ta baya framework ma use kawa  </p>
+
+    <img src="./understanding.PNG">
+
+    <h2> grid properties</h2>
+    <img src="./gridproperties.PNG" alt="img">
+    <h2> grid column width and height using px</h2>
+    <div class="gridcontainer-pixel">
+        <div class=" box1"> 450px ( grid-template-columns)width and (grid-template-rows)hight 150px </div>
+        <div class=" box2"> 300px ( grid-template-columns)width and (grid-template-rows)hight 150px</div>
+        <div class=" box3">450px ( grid-template-columns)width and (grid-template-rows)hight 150px</div>
+        <div class=" box4">300px ( grid-template-columns)width and (grid-template-rows)hight 150px</div>
+        <div class=" box5"> 450px ( grid-template-columns)width and (grid-template-rows)hight 100px</div>
+        <div class=" box6"> 300px ( grid-template-columns)width and (grid-template-rows)hight 100px</div>
+    </div>
+
+    <h2> grid column width and height using %</h2>
+    <div class="gridcontainer-percent">
+        <div class="box1-pt"> 50%( grid-template-columns)width and (grid-template-rows)hight 50% </div>
+        <div class="box2-pt"> 30% ( grid-template-columns)width and (grid-template-rows)hight 50%</div>
+        <div class="box3-pt">50%( grid-template-columns)width and (grid-template-rows)hight 30%</div>
+        <div class="box4-pt">30% ( grid-template-columns)width and (grid-template-rows)hight 30%</div>
+        <div class="box5-pt">50%( grid-template-columns)width and (grid-template-rows)hight 20%</div>
+        <div class="box6-pt"> 30% ( grid-template-columns)width and (grid-template-rows)hight 20%</div>
+    </div>
+
+    <h2> grid column gap</h2>
+    <div class="gridcontainer-colgap">
+        <div class="box1-colgap"> 500px( grid-template-columns)width and (grid-template-rows)hight 200px </div>
+        <div class="box2-colgap"> 400px( grid-template-columns)width and (grid-template-rows)hight 200px</div>
+        <div class="box3-colgap">300px( grid-template-columns)width and (grid-template-rows)hight 200px</div>
+        <div class="box4-colgap">500px ( grid-template-columns)width and (grid-template-rows)hight 30%</div>
+        <div class="box5-colgap">400px( grid-template-columns)width and (grid-template-rows)hight 20%</div>
+        <div class="box6-colgap"> 300px ( grid-template-columns)width and (grid-template-rows)hight 20%</div>
+    </div>
+
+
+    <h2> grid Row gap</h2>
+    <div class="gridcontainer-rowgap">
+        <div class="box1-rowgap"> 500px( grid-template-columns)width and (grid-template-rows)hight 200px </div>
+        <div class="box2-rowgap"> 400px( grid-template-columns)width and (grid-template-rows)hight 200px</div>
+        <div class="box3-rowgap">300px( grid-template-columns)width and (grid-template-rows)hight 200px</div>
+        <div class="box4-rowgap">500px ( grid-template-columns)width and (grid-template-rows)hight 30%</div>
+        <div class="box5-rowgap">400px( grid-template-columns)width and (grid-template-rows)hight 20%</div>
+        <div class="box6-rowgap"> 300px ( grid-template-columns)width and (grid-template-rows)hight 20%</div>
+    </div>
+
+    <h2>grid column width and height using fr</h2>
+    <div class="gridcontainer-fr">
+        <div class="box1-rowgap"> 2fr( grid-template-columns)width and (grid-template-rows)hight 1fr</div>
+        <div class="box2-rowgap"> 1fr( grid-template-columns)width and (grid-template-rows)hight 1fr</div>
+        <div class="box3-rowgap"> 1fr( grid-template-columns)width and (grid-template-rows)hight 1fr</div>
+        <div class="box4-rowgap">  2fr( grid-template-columns)width and (grid-template-rows)hight 1fr</div>
+        <div class="box5-rowgap"> 1fr( grid-template-columns)width and (grid-template-rows)hight 1fr</div>
+        <div class="box6-rowgap"> 1fr( grid-template-columns)width and (grid-template-rows)hight 1fr</div>
+    </div>
+
+
+    <h2>repeet fr when we make 2 or more col of our won choice</h2>
+    <div class="gridcontainer-repeat">
+        <div class="box1-rpt"> 2fr( grid-template-columns)width and (grid-template-rows)hight 1fr</div>
+        <div class="box2-rpt"> 1fr( grid-template-columns)width and (grid-template-rows)hight 1fr</div>
+        <div class="box3-rpt"> 1fr( grid-template-columns)width and (grid-template-rows)hight 1fr</div>
+        <div class="box4-rpt">  2fr( grid-template-columns)width and (grid-template-rows)hight 1fr</div>
+        <div class="box5-rpt"> 1fr( grid-template-columns)width and (grid-template-rows)hight 1fr</div>
+        <div class="box6-rpt"> 1fr( grid-template-columns)width and (grid-template-rows)hight 1fr</div>
+    </div>
+
+    <h2>Grid positioning</h2>
+    <div class="gridcontainer-positioning">
+        <div class="box1-ptn"> one</div>
+        <div class="box2-ptn"> two</div>
+        <div class="box3-ptn"> three</div>
+        <div class="box4-ptn">  four</div>
+        <div class="box5-ptn">five</div>
+        <div class="box6-ptn"> six</div>
+    </div>
+
+    <h2>Grid spaning mean che mung yw grid sona width ao height warkw on the basis of column and row</h2>
+    <div class="gridcontainer-spaning">
+        <div class="box1-span"> one</div>
+        <div class="box2-span"> two</div>
+        <div class="box3-span"> three</div>
+        <div class="box4-span">  four</div>
+        <div class="box5-span">five</div>
+        <div class="box6-span"> six</div>
+        <div class="box7-span">seven</div>
+        <div class="box8-span"> eight</div>
+        <div class="box9-span">nine</div>
+        <div class="box10-span"> ten</div>
+    </div>
+</body>
+</html>
